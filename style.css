@@ -1,0 +1,817 @@
+
+body{
+    margin: 0;
+    position: relative;
+    min-height:100%;
+    padding-bottom: 58.74rem;
+    background-color:#ffffff;;
+}
+/* =====head manu bar===== */
+.head-container{
+    width: 64%;
+    margin: auto;
+}
+.manu-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.influencer-logo h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.manu-botton a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.card-sap{
+    width: 36px;
+    height: 36px;
+}
+.list-manu{
+    display: none;
+}
+/* first section part */
+.first-section-container{
+    margin:auto;
+    margin-top: 8%;
+    display: grid;
+    width: 1047px;
+    height:auto;
+    grid-column-gap: 113px;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2,1fr);
+}
+.half-width{
+    width: 582px;
+    height: 270px;
+}
+.influens-ditile{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    font-family: poppins;
+}
+.influens-para{
+    width: 505px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    font-family: poppins;
+}
+.first-butoon{
+    width: 196px;
+    height: 44px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 41px;
+    font-family: poppins;
+    text-decoration: none;
+    background: #E02C6D;
+}
+.arrow{
+    margin-left: 5px;
+}
+/*----------imge part first ----------*/
+.image-part{
+    width: 475px;
+    height: 475px;
+    position: relative;
+}
+.cricle-camera{
+    width:100%;
+}
+.camera{
+    z-index: 2;
+    position: relative;
+    transition: 8s;
+}
+.camera:hover{
+    transform: rotate(190deg);
+}
+.cricle{
+    z-index: 1;
+    position: relative;
+    margin-top: -461px;
+}
+/*======Icone container=========*/
+.icon-container{
+    margin: auto;
+    width: 1110px;
+    height: 110px;
+    margin-top: 69px;
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid rgba(197, 192, 192, 0.77);
+    border-bottom: 2px solid rgba(197, 192, 192, 0.77);
+}
+.logo-img{
+    display: grid;
+    margin-top: 37px;
+    align-items: center;
+    grid-template-columns: repeat(7,1fr);
+}
+/*---------product-section---------- */
+.product-area{
+    width: 1047px;
+    height: 1662px;
+    margin: auto;
+    margin-top: 100px;
+}
+.collection-title{
+    font-weight: 600;
+    font-size: 28px;
+    font-family: poppins;
+    text-align: center;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img-farme{
+    width: 329px;
+    height: 490px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product-img{
+    width: 300px;
+    height: 256px;
+    margin-left: 14px;
+    margin-top: 14px;
+    background: url(.jpg);
+    border-radius: 5px;
+}
+.product-info{
+    margin-left: 14px;
+}
+.product-info h3{
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 15px;
+    font-family: poppins;
+}
+.product-info .p1{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top:-20px;
+    color: #787885;
+    font-family: poppins;
+}
+span{
+    width: 122px;
+    height: 32px;
+    display: flex;
+    margin-top: -25px;
+    align-items: center;
+}
+.star-style{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    color: #FB8200;
+}
+.reviw-number{
+    color: gray;
+    font-weight: 100;
+    margin-left: 6px;
+    font-family: poppins;
+}
+.p2{
+    width: 196px;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 700;
+    color: #787885;
+    font-family: poppins;
+}
+/* ===see more=== */
+.see-more a {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: poppins;
+    text-decoration: none;
+    float: right;
+    color: rgba(224, 44, 109, 0.87);
+}
+.arrow-see{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+/* ===============featur section part thire======================*/
+.section-thire{
+    width: 1031px;
+    height: 270px;
+    margin: auto;
+    margin-top: 150px;
+}
+.Featured-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.featur-img{
+    width: 520px;
+    height: 270px;
+    background-image: url(images/drone.png);
+    background-repeat: no-repeat;
+    background-size:80%;
+    animation: changephoto 4s 1s infinite ease-in-out alternate-reverse;
+}
+.featur-ditale{
+    width: 498px;
+    height: 224px;
+}
+.featur-ditale h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+}
+.featur-ditale p{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+}
+.featur-ditale a{
+    width: 155px;
+    height: 44px;
+    color: #FFFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    background: #E02C6D;
+}
+/* =============================footer part============================================ */
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 35px;
+    text-align: center;
+    background-color: #000;
+}
+.h2-footer{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF;
+}
+.p-footer{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
+.net-icon{
+    font-size: 20px;
+    padding: 10px;
+    color: #FFF;
+}
+/*====================================================================================================================
+                                   Media Qureary--part by responsive ness.
+============================================================================================= */
+/*Tablet device */
+@media only screen and (max-width:992px) {
+    body{
+        margin: 0;
+        position: relative;
+        min-height:100%;
+        padding-bottom:125rem;
+        background-color:#ffffff;;
+    }
+        /* head manu part*/
+        .head-container{
+            width: 64rem;
+            margin-left: 7rem;
+        }
+        .manu-conatiner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .influencer-logo h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            /* margin-left: 50%; */
+        }
+        .manu-botton{
+            display: flex;
+            align-items: center;
+        }
+        .manu-botton a{
+            display: block;
+        }
+        .fa-list-ul{
+            display: none;
+        }
+        .card-sap{
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 22px;
+        }
+        /*home page section*/
+    .first-section-container{
+      /* margin-top: -20%; */
+      grid-template-columns: repeat(1,1fr);
+    }
+    .half-width{
+        margin: auto;
+    }
+    .influens-ditile{
+        text-align: center;
+    }
+    .influens-para{
+        text-align: center;
+    }
+    .first-butoon{
+        margin-left: 30%;
+    }
+    .image-part{
+        margin-top: 15%;
+    }
+    /*logo img icon*/
+    .icon-container{
+        height: 100%;
+        border: none;
+    }
+    .logo-img{
+        display: grid;
+        justify-items: center;
+        padding: 10px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    /*product-section part */
+    .product-container{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .see-more a{
+        margin-right: 15%;
+    }
+
+        /*==================section thire part============================================*/
+        .Featured-container{
+            margin-left: 8%;
+            grid-template-columns: repeat(2,1fr);
+        }
+    
+        .featur-img img{
+            width: 700px;
+        }
+        .featur-ditale{
+            width: 510px;
+            height: 224px;
+            margin-top: -6%;
+        }
+        .featur-ditale h2{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .featur-ditale p{
+            width: 400px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 47px;
+        }
+        .featur-ditale a{
+            width: 155px;
+            height: 44px;
+            color: #FFFF;
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 20px;
+            padding: 16px 53px;
+            text-decoration: none;
+            font-family: 'Poppins';
+            background: #E02C6D;
+        }
+    /*++++++++++++++FOOTER PART++++++++++++++++++++++++++++++ */
+    footer{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 67.74rem;
+        padding: 35px;
+        text-align: center;
+        background-color: #000;
+    }
+}
+
+/*==========================================================================================================================
+                                            Mobaile device 688 screen size
+=================================================================================================*/
+@media only screen and (max-width:688px) {
+    body{
+        margin: 0;
+        position: relative;
+        min-height:100%;
+        padding-bottom:160rem;
+        background-color:#ffffff;;
+    }
+    /* head manu part*/
+    .head-container{
+        width: 64rem;
+        margin-left: 7rem;
+    }
+    .manu-conatiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .influencer-logo h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        /* margin-left: 50%; */
+    }
+    .manu-botton a {
+        display: none;
+    }
+    .manu-botton{
+        display: flex;
+        align-items: center;
+    }
+    .list-manu{
+        display: block;
+        font-size: 50px;
+        padding: 20px;
+    }
+    .card-sap{
+        font-size: 50px;
+        padding: 20px;
+        margin-top: -7px;
+    }
+    /*home page section*/
+    .first-section-container{
+      /* margin-top: 0%; */
+      grid-template-columns: repeat(1,1fr);
+    }
+    .half-width{
+        margin: auto;
+    }
+    .influens-ditile{
+        text-align: center;
+    }
+    .influens-para{
+        text-align: center;
+    }
+    .first-butoon{
+        margin-left: 30%;
+    }
+    .image-part{
+        margin-top: 15%;
+    }
+/*logo img part icon */
+    .icon-container{
+        border: none;
+    }
+    .logo-img{
+        display: grid;
+        justify-items: center;
+        padding: 20px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .icon-img{
+        margin-top: 20px;
+    }
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+        /*product-section part */
+        .img-farme{
+            width: 329px;
+            height: 490px;
+            padding: 5px;
+            /* margin: 10px; */
+            margin-top: 40px;
+            border-radius: 5px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        }
+        .product-container{
+            display: grid;
+            /* justify-items: center; */
+            grid-template-columns: repeat(2,1fr);
+        }
+        /*===see more==*/
+        .see-more a{
+            float: left;
+            margin-left:50%;
+        }
+                /*==================section thire part============================================*/
+    .section-thire{
+        width: 1031px;
+        height: 270px;
+        margin: auto;
+        margin-top: 150px;
+        margin-left: 22%;
+    }
+    .Featured-container{
+        margin-left: 8%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .featur-img{
+        width: 700px;
+        height: 477px;    
+    }
+    .featur-ditale{
+        width: 500px;
+        height: 178px;
+        margin-top: -5px;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .featur-ditale h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .featur-ditale p{
+        width: 400px;
+        font-family: 'Poppins';
+        margin-top: -10px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 52px;
+    }
+    .featur-ditale a{
+        width: 155px;
+        height: 44px;
+        color: #FFFF;
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 20px;
+        padding: 16px 53px;
+        text-decoration: none;
+        font-family: 'Poppins';
+        background: #E02C6D;
+    }
+    /* =============FOOTER PART============================== */
+    footer{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 74.74rem;
+        padding: 35px;
+        text-align: center;
+        background-color: #000;
+    }
+}
+/*===============mobaile device 337====================================================================================
+                                                             mobaile device 337
+====================================================================================================================================*/
+@media only screen and (max-width:375px) {
+    body{
+        margin: 0;
+        position: relative;
+        min-height:100%;
+        padding-bottom:680.55rem;
+        background-color:#ffffff;;
+    }
+    /* head manu part section*/
+    .head-container{
+        width: 64rem;
+        margin-left: 3rem;
+    }
+    .manu-conatiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .influencer-logo h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .manu-botton a {
+        display: none;
+    }
+    .manu-botton{
+        display: flex;
+        align-items: center;
+    }
+    .list-manu{
+        display: block;
+        font-size: 50px;
+        padding: 20px;
+    }
+    .card-sap{
+        font-size: 50px;
+        padding: 20px;
+    }
+    /*home-page section*/
+    .first-section-container{
+      /* margin-top: 0%; */
+      grid-template-columns: repeat(1,1fr);
+    }
+    .half-width{
+        margin: auto;
+    }
+    .influens-ditile{
+        text-align: center;
+    }
+    .influens-para{
+        text-align: center;
+    }
+    .first-butoon{
+        margin-left: 30%;
+    }
+    .image-part{
+        margin-top: 15%;
+    }
+/*logo img part icon */
+    .icon-container{
+        border: none;
+    }
+    .logo-img{
+        display: grid;
+        justify-items: center;
+        padding: 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .icon-img{
+        margin-top: 20px;
+    }
+    /*=============product area================== */
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+        /*product-section part */
+        .img-farme{
+            width: 80%;
+            height: 97%;
+            padding: 5px;
+            margin-top: 40px;
+            border-radius: 5px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        }
+        .product-img{
+            width: 96%;
+            height: 60%;
+            margin-left: 14px;
+        }
+        .product-info h3 {
+            font-weight: 500;
+            font-size: 55px;
+            margin-top: 15px;
+            text-align: center;
+            font-family: poppins;
+        }
+        span {
+            margin-left: 36%;
+            width: 122px;
+            height: 32px;
+            display: flex;
+            margin-top: -70px;
+            margin-bottom: 51px;
+            align-items: baseline;
+        
+        }
+            .star-style {
+                width: 37px;
+                height: 20px;
+                font-size: 27px;
+                margin-right: 4px;
+                color: #FB8200;
+            }
+            .reviw-number{
+                font-size: 27px;
+                color: #000;
+            }
+        .product-info .p1 {
+            font-weight: 400;
+            font-size: 50px;
+            text-align: center;
+            margin-top: -50px;
+            color: #787885;
+            font-family: poppins;
+        }
+        .p2 {
+            width: 100%;
+            font-size: 38px;
+            margin-top: 5px;
+            text-align: center;
+            font-weight: 700;
+            color: #000; 
+            font-family: poppins;
+        }
+        /*=========================================*/
+        .product-container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        /*===see more==*/
+        .see-more a{
+            font-size: 45px;
+            margin-left: 40%;
+            margin-top: 30px;
+        }
+        /*==================section thire part============================================*/
+        .section-thire{
+            margin-left: 0;
+        }
+    .Featured-container{
+        margin-left: 10%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .featur-img{
+        width: 1040px;
+        height: 707px;
+       
+    }
+    .featur-ditale{
+        width: 510px;
+        height: 224px;
+        margin-left: 14%;
+    }
+    .featur-ditale h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+    }
+    .featur-ditale p{
+        width: 500px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 29px;
+    }
+    .featur-ditale a{
+        width: 155px;
+        height: 44px;
+        color: #FFFF;
+        font-size: 33px;
+        font-weight: 700;
+        margin-top: 20px;
+        padding: 16px 53px;
+        text-decoration: none;
+        font-family: 'Poppins';
+        background: #E02C6D;
+        margin-left: 100px;
+    }
+
+/*=============footer======================*/
+footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 67.74rem;
+    padding: 35px;
+    text-align: center;
+    background-color: #000;
+}
+}
+/*==========================Animation=====================================================*/
+@keyframes changephoto {
+    0%{
+        background-image: url(images/mic.png);
+    }
+    25%{
+        background-image: url(images/main-camera.png);
+    }
+    25%{
+        background-image: url(images/setup.png);
+    }
+    25%{
+        background-image: url(images/tripod.png);
+    }
+    75%{
+        background-image: url(images/camera.png);
+    }
+    100%{
+        background-image: url(images/single-light.png);
+    }
+}
